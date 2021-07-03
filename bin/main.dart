@@ -43,9 +43,23 @@ void main() {
   // var menandWomen = ["Men&Women", ...men, ...women];
   // print(menandWomen);
 
-  List <String>student = [];
-  student.add("raj");
-  print(student);
+//   List<String> student = [];
+//   student.add("raj");
+//   print(student);
 
+// // Set
+//   var p = <String>{};
+//   p.add('hello');
+//   print(p);
 
+  // Set<String> p = {};
+  // p.add('hello');
+  // print(p);
+
+  // #MAP
+
+  var address = {'name': 'Raj', 'city': 'Jaipur', 'state': 'Rajasthan'};
+
+  print(address);
+  print(address.runtimeType);
 }
